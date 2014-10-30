@@ -1,5 +1,5 @@
-<transport name="HTTP-InboundAuthToken" domain="com.esri.ges.transport.inbound" type="inbound">
-	<description>Sample HTTP transport that extends the basic HTTP transport.</description>
+<transport name="HTTP-InboundAuthToken" label="${com.esri.geoevent.transport.httpInboundAuthToken-transport.TRANSPORT_IN_LABEL}" domain="com.esri.ges.transport.inbound" type="inbound">
+	<description>${com.esri.geoevent.transport.httpInboundAuthToken-transport.TRANSPORT_IN_DESC}</description>
 	<propertyDefinitions>
         <propertyDefinition propertyName="username" label="Username" description="User Name" propertyType="String" mandatory="false"  readOnly="false" defaultValue=""/>
         <propertyDefinition propertyName="password" label="Password" description="Password" propertyType="Password" mandatory="false"  readOnly="false" defaultValue=""/>

@@ -20,7 +20,7 @@
   Redlands, California, USA 92373
 
   email: contracts@esri.com
-*/
+ */
 
 package com.esri.geoevent.transport.httpInboundAuthToken;
 
@@ -31,16 +31,15 @@ import com.esri.ges.transport.util.XmlTransportDefinition;
 
 public class HttpInboundAuthTokenTransportService extends HttpInboundTransportService
 {
+	public HttpInboundAuthTokenTransportService()
+	{
+		super();
+		definition = new XmlTransportDefinition(getResourceAsStream("http-inboundauthtoken-transport-definition.xml"), super.definition);
+	}
 
-  public HttpInboundAuthTokenTransportService()
-  {
-    super();
-    definition = new XmlTransportDefinition(getResourceAsStream("http-inboundauthtoken-transport-definition.xml"),
-        super.definition);  }
-
-  @Override
-  public Transport createTransport() throws ComponentException
-  {
-    return new HttpInboundAuthTokenTransport(definition);
-  }
+	@Override
+	public Transport createTransport() throws ComponentException
+	{
+		return new HttpInboundAuthTokenTransport(definition);
+	}
 }
