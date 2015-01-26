@@ -1,6 +1,6 @@
 # httpInboundAuthToken-for-geoevent
 
-ArcGIS 10.3 GeoEvent Extension sample Http Inbound Transport for polling a REST endpoint.
+ArcGIS 10.3.x GeoEvent Extension sample Http Inbound Transport for polling a REST endpoint.
 
 ![App](httpInboundAuthToken-for-geoevent.png?raw=true)
 
