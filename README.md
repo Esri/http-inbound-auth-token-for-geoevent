@@ -1,6 +1,6 @@
 # httpInboundAuthToken-for-geoevent
 
-ArcGIS 10.3.x GeoEvent Extension Sample Http Inbound Transport for polling a REST endpoint.
+ArcGIS 10.3 GeoEvent Extension sample Http Inbound Transport for polling a REST endpoint.
 
 ![App](httpInboundAuthToken-for-geoevent.png?raw=true)
 
@@ -30,7 +30,7 @@ Installing the built jar files:
 ## Resources
 
 * ArcGIS GeoEvent Extension [Gallery](http://www.arcgis.com/home/group.html?owner=GeoEventTeam&title=ArcGIS%20GeoEvent%20Processor&sortField=title&sortOrder=asc&content=all)
-* [ArcGIS GeoEvent Extension for Server Resource Center](http://links.esri.com/geoevent)
+* [ArcGIS GeoEvent Extension for Server Resources](http://links.esri.com/geoevent)
 * [ArcGIS Blog](http://blogs.esri.com/esri/arcgis/)
 * [twitter@esri](http://twitter.com/esri)
 
